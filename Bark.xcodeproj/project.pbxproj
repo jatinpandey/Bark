@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFEF7D6546C42DAAD8C3C46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4404C85B8E2D4015A5745F00 /* libPods.a */; };
 		8F147E7619CB473F00D49225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F147E7519CB473F00D49225 /* AppDelegate.swift */; };
-		8F147E7819CB473F00D49225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F147E7719CB473F00D49225 /* ViewController.swift */; };
 		8F147E7B19CB473F00D49225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F147E7919CB473F00D49225 /* Main.storyboard */; };
 		8F147E7D19CB473F00D49225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F147E7C19CB473F00D49225 /* Images.xcassets */; };
 		8F147E8919CB473F00D49225 /* BarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F147E8819CB473F00D49225 /* BarkTests.swift */; };
+		8F147E9719CBB26700D49225 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F147E9619CBB26700D49225 /* ResultCell.swift */; };
+		8F147E9919CBB3C100D49225 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F147E9819CBB3C100D49225 /* ResultController.swift */; };
+		8FAD3FC419CFD15300CAFB92 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD3FC319CFD15300CAFB92 /* FilterViewController.swift */; };
+		8FAD3FC619CFD7BC00CAFB92 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD3FC519CFD7BC00CAFB92 /* YelpClient.swift */; };
+		8FDF318B19D10EF20017C114 /* SwitcherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF318A19D10EF20017C114 /* SwitcherCell.swift */; };
+		8FDF318D19D10F150017C114 /* DropperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF318C19D10F150017C114 /* DropperCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +31,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4404C85B8E2D4015A5745F00 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F147E7019CB473F00D49225 /* Bark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F147E7419CB473F00D49225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F147E7519CB473F00D49225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F147E7719CB473F00D49225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F147E7A19CB473F00D49225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F147E7C19CB473F00D49225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F147E8219CB473F00D49225 /* BarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F147E8719CB473F00D49225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F147E8819CB473F00D49225 /* BarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkTests.swift; sourceTree = "<group>"; };
+		8F147E9619CBB26700D49225 /* ResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		8F147E9819CBB3C100D49225 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		8F147E9A19CBB8AB00D49225 /* Bark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bark-Bridging-Header.h"; sourceTree = "<group>"; };
+		8FAD3FC319CFD15300CAFB92 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		8FAD3FC519CFD7BC00CAFB92 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		8FDF318A19D10EF20017C114 /* SwitcherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitcherCell.swift; sourceTree = "<group>"; };
+		8FDF318C19D10F150017C114 /* DropperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropperCell.swift; sourceTree = "<group>"; };
+		EC0806EBAE0149A288FB1950 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFEF7D6546C42DAAD8C3C46 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +75,8 @@
 				8F147E7219CB473F00D49225 /* Bark */,
 				8F147E8519CB473F00D49225 /* BarkTests */,
 				8F147E7119CB473F00D49225 /* Products */,
+				EC0806EBAE0149A288FB1950 /* Pods.xcconfig */,
+				C7B3BF2E60DA488EADC18FE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,11 +92,17 @@
 		8F147E7219CB473F00D49225 /* Bark */ = {
 			isa = PBXGroup;
 			children = (
-				8F147E7519CB473F00D49225 /* AppDelegate.swift */,
-				8F147E7719CB473F00D49225 /* ViewController.swift */,
 				8F147E7919CB473F00D49225 /* Main.storyboard */,
+				8F147E9819CBB3C100D49225 /* ResultController.swift */,
+				8FAD3FC319CFD15300CAFB92 /* FilterViewController.swift */,
+				8F147E9619CBB26700D49225 /* ResultCell.swift */,
+				8F147E9A19CBB8AB00D49225 /* Bark-Bridging-Header.h */,
+				8FAD3FC519CFD7BC00CAFB92 /* YelpClient.swift */,
 				8F147E7C19CB473F00D49225 /* Images.xcassets */,
 				8F147E7319CB473F00D49225 /* Supporting Files */,
+				8F147E7519CB473F00D49225 /* AppDelegate.swift */,
+				8FDF318A19D10EF20017C114 /* SwitcherCell.swift */,
+				8FDF318C19D10F150017C114 /* DropperCell.swift */,
 			);
 			path = Bark;
 			sourceTree = "<group>";
@@ -109,6 +132,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C7B3BF2E60DA488EADC18FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4404C85B8E2D4015A5745F00 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F147E8C19CB473F00D49225 /* Build configuration list for PBXNativeTarget "Bark" */;
 			buildPhases = (
+				2868D2129A6D4D5BB6ACC8A2 /* Check Pods Manifest.lock */,
 				8F147E6C19CB473F00D49225 /* Sources */,
 				8F147E6D19CB473F00D49225 /* Frameworks */,
 				8F147E6E19CB473F00D49225 /* Resources */,
+				009A7B1A99E94024803791E7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,13 +236,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		009A7B1A99E94024803791E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2868D2129A6D4D5BB6ACC8A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F147E6C19CB473F00D49225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F147E7819CB473F00D49225 /* ViewController.swift in Sources */,
+				8FDF318B19D10EF20017C114 /* SwitcherCell.swift in Sources */,
+				8FAD3FC619CFD7BC00CAFB92 /* YelpClient.swift in Sources */,
+				8FDF318D19D10F150017C114 /* DropperCell.swift in Sources */,
+				8F147E9919CBB3C100D49225 /* ResultController.swift in Sources */,
 				8F147E7619CB473F00D49225 /* AppDelegate.swift in Sources */,
+				8FAD3FC419CFD15300CAFB92 /* FilterViewController.swift in Sources */,
+				8F147E9719CBB26700D49225 /* ResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,23 +393,30 @@
 		};
 		8F147E8D19CB473F00D49225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0806EBAE0149A288FB1950 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Bark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bark/Bark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8F147E8E19CB473F00D49225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0806EBAE0149A288FB1950 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Bark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bark/Bark-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +473,7 @@
 				8F147E8E19CB473F00D49225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F147E8F19CB473F00D49225 /* Build configuration list for PBXNativeTarget "BarkTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +482,7 @@
 				8F147E9119CB473F00D49225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
